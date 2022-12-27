@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIC FRONTEND</title>
+
+        <!-- Bootstrap Scripts  -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+        
+        <!-- Google Fonts Scripts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
+        <!-- FontAwesome Icons Link  -->
+        <script>
+            src="https://kit.fontawesome.com/e8181252ca.js"
+            crossorigin="anonymous"
+        </script>
+
+        <link 
+        href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+        rel="stylesheet"  type='text/css'>
+
+        
+
+    <link rel="stylesheet" href="./styles.css"/>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-lg-6 md-6 sm-12">
+            <div class="dashboard container">
+
+                <div class="row">
+
+                    <div class="col-lg-6 md-6 sm-6">
+                        <div class="trial container">
+                            <p class="temperature-text">Temperature</p>
+                            <br><p class="degrees">24C  <i class="fa fa-solid fa-cloud" style="padding-left: 15%;"></i></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 md-6 sm-6">
+                        <div class="humidity container">
+                            <p class="humidity-text">Humidity</p><br>
+                            <p class="percent">54% 
+                                <svg style="padding-left: 15%;" width="25%" height="10%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path d="M192 496c97.2 0 176-78.8 176-176c0-74.1-102.3-230.6-150.9-300.7c-12.3-17.7-37.8-17.7-50.1 0C118.3 89.4 16 245.9 16 320c0 97.2 78.8 176 176 176zM112 320c0 44.2 35.8 80 80 80c8.8 0 16 7.2 16 16s-7.2 16-16 16c-61.9 0-112-50.1-112-112c0-8.8 7.2-16 16-16s16 7.2 16 16z"/>
+                                </svg>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6 md-6 sm-6">
+                        <div class="pressure container">
+                            <p class="pressure-text">Pressure</p>
+                            <br><p class="bar">1014 mbar</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 md-6 sm-6">
+                        <div class="quality container">
+                            <p class="quality-text">Air Quality</p><br>
+                            <p class="rate">3/5
+                                <svg style="padding-left: 15%;" width="50px" height="50px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path d="M192 496c97.2 0 176-78.8 176-176c0-74.1-102.3-230.6-150.9-300.7c-12.3-17.7-37.8-17.7-50.1 0C118.3 89.4 16 245.9 16 320c0 97.2 78.8 176 176 176zM112 320c0 44.2 35.8 80 80 80c8.8 0 16 7.2 16 16s-7.2 16-16 16c-61.9 0-112-50.1-112-112c0-8.8 7.2-16 16-16s16 7.2 16 16z"/>
+                                </svg>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 md-6 sm-12">
+
+            
+            <img class="cloud" src="./images/My project.png" alt="cloud.png">
+            <h1 class="main_temp">27</h1>
+            <p class="celsius"><sup>o</sup> C</p>
+
+            <p class="date">17th Dec '22</p>
+            <p class="day">Friday  |  3:45 AM</p>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-dark navbar-expand-md">
+        <a href="#" class="navbar-brand"></a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a href="#" class="nav-link" target="_blank">Wind</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" target="_blank">10Km/h</a></li>
+                <li class="nav-item slash-first"><a href="#" class="nav-link" target="_blank">|</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Hum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">54%</a></li>
+                <li class="nav-item slash-second"><a href="#" class="nav-link">|</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Rain</a></li>
+                <li class="nav-item last"><a href="#" class="nav-link">0.2%</a></li>
+            </ul>
+        </div>
+    </nav>
+
+     <!-- <div class="footer container">
+        <p class="p">Wind</p>
+        <p class="p">10Km/h</p>
+        <p class="p">|</p>
+        <p class="p">Hum</p>
+        <p class="p">54 %</p>
+        <p class="p">|</p>
+        <p class="p">Rain</p>
+        <p class="p">0.2%</p>
+     </div> -->
+
+</body>
+
+</html>

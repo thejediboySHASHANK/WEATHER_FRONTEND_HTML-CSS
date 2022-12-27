@@ -1,0 +1,194 @@
+body {
+    background-color: #210F2D;
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+/* DASHBOARD  */
+.dashboard {
+    background-color: #182219;
+    margin: 15% 0 0 8%;
+    border-radius: 2%;
+    border-style: solid;
+    border-width: 1px; 
+    border-color: rgb(240, 248, 255);
+    padding: 8% 0 8% 0;
+    /* margin-left: 10%; */
+}
+
+/* buttons inside .dashboard */
+.btn:hover {
+    background-color : #6A00F0;
+}
+
+.trial {
+    background-color: #387E00;
+    border-radius: 15%;
+    margin-top: 5%;
+    width: 75%;
+    padding: 2% 6% 6% 6%;
+
+    text-align: center;
+}
+.temperature-text {
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+}
+.degrees {
+    color: aliceblue;
+    font-size: 1.8rem;
+}
+
+.humidity { 
+    margin-top: 5%;
+    font-family: 'Inter', sans-serif;
+    background-color: #6A00F0;
+    padding: 2% 8% 6% 8%;
+    border-radius: 15%;
+    width: 75%;
+    text-align: center;
+}
+.humidity-text {
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.percent {
+    color: aliceblue;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.pressure { 
+    margin-top: 15%;
+    font-family: 'Inter', sans-serif;
+    background-color: #6D0101;
+    padding: 2% 8% 6% 8%;
+    border-radius: 15%;
+    width: 75%;
+    text-align: center;
+}
+.pressure-text {
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.bar {
+    color: aliceblue;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.quality { 
+    margin-top: 15%;
+    font-family: 'Inter', sans-serif;
+    background-color: #000000;
+    padding: 2% 8% 6% 8%;
+    border-radius: 15%;
+    width: 75%;
+    text-align: center;
+}
+.quality-text {
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.rate {
+    color: aliceblue;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+
+/* RIGHT SIDE MAIN CONTENT  */
+.main_temp {
+    /* position: absolute;  */
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 15rem;
+    margin-top: 7%;
+    margin-left: 8%;
+    z-index: -1;
+}
+.celsius {
+    position: relative;
+    /* right: 14rem;
+    top: 20rem; */
+    left: 13rem;
+    bottom: 15rem;
+    font-size: 2.5rem;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    /* margin-left: 30rem; */
+}
+.date {
+    font-size: 3rem;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    position: relative;
+    left: 2rem;
+    bottom : 2.5rem;
+}
+.day {
+    font-size: 1.8rem;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    position: relative;
+    left: 2rem;
+    bottom : 2.5rem;
+}
+
+/* TOGGLE SWITCH  */
+
+
+
+/* IMAGE PHOTO  */
+.cloud {
+    width: 250px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 3rem;
+    left: 4rem;
+    filter: drop-shadow(1px 3px 6px 	#E6E6FA);
+}
+
+
+/* NAVBAR DETAILS  */
+.navbar {
+    margin-bottom: 0rem;
+    position: relative;
+    top: 8rem;
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;    
+}
+.nav-link {
+    color: aliceblue;
+    font-weight: 200;
+}
+
+.slash-first {
+    margin: 0 2% 0 2%;
+}
+.slash-second {
+    margin: 0 2% 0 2%;
+}
+.last {
+    margin-right: 6rem;
+}
+
+
+/* FOOTER  */
